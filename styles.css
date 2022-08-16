@@ -1,3 +1,7 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 /* Header/Footer */
 .header,
 .footer {
@@ -6,12 +10,10 @@
 
 #logo-text {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
   color: #f9faf8;
-}
-
-.block-3 {
-  background-color: #e5e7eb;
+  background-color: #1f2937;
 }
 
 /* Block 1 */
@@ -19,4 +21,22 @@
 #block-1-secondary {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+/* Block 2 */
+
+.block-2 {
+  background-color: #f9faf8;
+}
+
+.block-2-title {
+  font-size: 36px;
+  font-style: 800;
+  color: #1f2937;
+}
+
+/* Block 3 */
+
+.block-3 {
+  background-color: #e5e7eb;
 }
