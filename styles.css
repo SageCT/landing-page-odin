@@ -2,15 +2,22 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* Header/Footer */
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Header */
 .header,
 .footer {
+  display: flex;
+  flex-direction: column;
   background-color: #1f2937;
 }
 
 #logo-text {
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 800;
   font-family: "Roboto", sans-serif;
   color: #f9faf8;
   background-color: #1f2937;
