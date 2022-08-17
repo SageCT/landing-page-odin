@@ -23,6 +23,13 @@ a {
   color: #e5e7eb;
 }
 
+#header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  margin: 8px 32px;
+  font-weight: 600;
+}
+
 .header ul {
   display: flex;
   list-style: none;
@@ -49,19 +56,29 @@ a {
 
 /* Block 1 */
 .block-1 {
-  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   background-color: #1f2937;
 }
 
 #logo-text {
+  width: 500px;
   font-size: 48px;
   font-weight: 800;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-bottom: 5px;
   color: #f9faf8;
   background-color: #1f2937;
 }
 
 #block-1-secondary {
+  width: 450px;
   font-size: 18px;
+  margin-top: 0px;
+  margin-left: 200px;
   color: #e5e7eb;
 }
 
@@ -71,8 +88,10 @@ a {
 }
 
 .block-2-title {
+  display: flex;
+  justify-content: center;
   font-size: 36px;
-  font-style: 800;
+  font-weight: 800;
   color: #1f2937;
 }
 
